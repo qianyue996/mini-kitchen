@@ -70,6 +70,7 @@ exports.main = async (event, context) => {
           };
           delete updatePayload.action;
           delete updatePayload.dish;
+          delete updatePayload._id;
 
           try {
             await db.collection('dishes').doc(dishData._id).update({
