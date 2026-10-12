@@ -1,0 +1,9 @@
+{
+  "name": "order-service",
+  "version": "1.0.0",
+  "description": "WeChat Mini Program Cloud Function for orders and sales statistics",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}
